@@ -7,9 +7,11 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 # Load YOLOv5 model (pretrained on COCO dataset, which includes cars)
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
-# Load your traffic video or connect to a camera feed
-cap = cv2.VideoCapture(
-    r'C:\Users\hanee\OneDrive\Desktop\killer\vid\carrs.mp4')
+# Local video file path
+video_path = 'vid\carrs4.mp4'
+
+# Open the video file
+cap = cv2.VideoCapture(video_path)
 
 # Define vehicle-related class IDs
 vehicle_classes = [2, 3, 5, 7]  # car, motorcycle, bus, truck
