@@ -90,9 +90,4 @@ Traffic congestion is a pressing issue in urban areas, costing billions in lost 
 
 ---
 
-## Contact
-For inquiries or collaboration opportunities, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/yourprofile) or email: your.email@example.com.
-
----
-
 **Let’s revolutionize traffic management together! 🚦**
